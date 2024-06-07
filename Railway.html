@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="city" href="@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Roboto+Mono&display=swap');">
+    <title>Train ticket booking on PK</title>
+    <link rel="stylesheet" href="Railway_management.css">
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <div class="logo">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.ca8nmh0N3R4U8fc7M5NytAHaHa&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="navbar">
+                
+                    <ul id="menu">
+                    
+                        <li class="navlinks"><a href="login.html" ><i class="bi bi-person-fill" style="color: rgb(234, 59, 59);"></i>Login</a></li>
+
+                    <li class="navlinks"><a href="#home"><i class="bi bi-r-square-fill" style="color: rgb(225, 59, 59);"></i>Register</a></li>
+                    <li class="navlinks Trains"><a href="#home"><i class="bi bi-train-front-fill" style="color: rgb(225, 59, 59);"></i>Trains </a>
+                        
+                            <!--<ul class="drop-down">
+                                <li><a href="#">Book Ticket</a></li>
+                                <li><a href="#">Foreign Tourist Booking</a></li>
+                                <li><a href="#">PNR Enquiry</a></li>
+                                <li><a href="#">Cancel Ticket</a></li>
+                                <li><a href="#">Train Shedule</a></li>
+                            </ul>-->
+            
+                    </li >
+                    <li class="navlinks"><a href="https://www.bus.irctc.co.in/home"><i class="bi bi-bus-front-fill" style="color: rgb(225, 59, 59);"></i>Buses </a></li>
+                    <li class="navlinks"><a href="#home"><i class="bi bi-airplane-fill" style="color: rgb(225, 59, 59);"></i>Flights</a></li>
+                    <li class="navlinks"><a href="#home"><i class="bi bi-buildings-fill" style="color: rgb(225, 59, 59);"></i>Hotels </a></li>
+                    <li class="navlinks"><a href="#home"><i class="bi bi-luggage-fill" style="color: rgb(225, 59, 59);"></i>Holidays </a></li>
+                    <li class="navlinks"><a href="#home"><i class="bi bi-telephone-fill" style="color: rgb(225, 59, 59);"></i>Contact </a></li>
+                    <li class="navlinks"<a href="#home"><i class="bi bi-three-dots-vertical" style="color: rgb(218, 12, 12);"></i>More </a></li>
+                </ul>
+                <ul class="down" style="justify-content:center; margin-left: -10px; margin-top: -50px;">
+                    <li ><a href="#home"><i class="bi bi-house-fill" style="color:rgb(225, 59, 59);"></i>home</a></li>
+                    <li ><i class="bi bi-exclude" style="color: rgb(225, 59, 59);"></i><a href="#home"></i>irctc exclusive</a></li>
+                    <li ><a href="home"><i class="bi bi-calendar2-day-fill" style="color: rgb(225, 59, 59);"></i>Daily Deals</a></li>
+                    <li ><a href="home" style= "padding: 3px 10px; background: rgb(198, 194, 194); color: rgb(17, 0, 0); border-radius: 5px;">Alerts</a></li>
+                    <li id="current-time"><h3></h3></l>
+                </ul>  
+                
+            </div>
+        </div>
+    
+    <div class="container">
+        <div class="cont">
+                <h1>INDIAN RAILWAY</h1>
+                <h4>Safety | Security | Punctuality</h4>
+                <h2 ><img src="https://images.ixigo.com/rt-train/pc/img/trainsHome/compareBookWhite.png" alt=""></i>Train Ticket Booking</h2>
+        </div>
+            <div class="dest">
+                <div class="lst">
+                        <ul>
+                            <li><a href="">BOOK TRAINS</a></li>
+                            <li><a href="">RUNNING STATUS</a></li>
+                            <li><a href="">PNR STATUS ENQUIRY</a></li>
+                            <li><a href="">SEARCH BY NAME/NUMBER</a></li>
+                            <li><a href="">SEARCH BY STATION</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="trip_box">
+                <div class="search_box">
+                    <div class="card"><h5> From <i class="bi bi-caret-down-fill"></i></h5>
+                        <input type="text" placeholder="Leaving from">
+                    </div>
+                    <div class="card"><h5>To <i class="bi bi-caret-down-fill"></i></h5></i>
+                        <input type="text"  placeholder="Going to">
+                    </div>
+                    <div class="card"><h5>Date <i class="bi bi-caret-down-fill"></i></h5>
+                        <input type="date">
+                    </div>
+                    <div>
+                        <a href="#"><input type="button" value="SEARCH"></a>
+                    </div>
+                </div>
+                <div class="dead">
+                <input type="checkbox" >
+                    <div id="get">
+                        <h5>Get Full Refund On Cancellation</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+       
+    
+</header>
+        <div class="offers">
+                <h1>IRCTC Train Ticket Booking on PK</h1>
+                <div>
+                    <h3>IRCTC Authorised Partner</h3><img src="https://images.ixigo.com/image/upload/f_auto/train/760e6e3b2f500e9c0a6436e330240cf8-rodkb.png" alt="">
+                </div>
+                <div class="one">
+                    <ul>
+                        <div class="card1">
+                            <li><a href="">₹0 Payment Gateway Fee on Payments via UPI</a></li>
+                        </div>
+                        <div class="card1" >
+                            <li><a href="">ixigo Assured: Free Cancellation of Train Tickets</a></li>
+                        </div>
+                       
+                    </ul>
+                    <ul>
+                        <div class="card2">
+                            <li><a href="">Instant Refund on Indian Railway Reservation Cancellation</a></li>
+                        </div>
+                        <div class="card2">
+                            <li style="margin-left: 30px;"><a href="">24*7 Support for IRCTC Train Ticket Booking</a></li>
+                        </div>
+                    </ul>
+                </div>
+        </div>
+        <section class="sec" style="margin-top: 30px;">
+            <div class="under-cont">
+                <h2 style="text-align: center; padding: 10px;">IRCTC Login</h2>    
+        <h4 style="padding: 20px; padding-left: 40px;" >On ixigo, you can register on IRCTC, navigate IRCTC’s next-generation login process, reset your IRCTC password and more.</h4>
+
+        <h3 style="padding-left:40px;">Create Your IRCTC Login ID and Password</h3>
+        <h4 style=" padding: 20px; padding-left:40px;">Having an IRCTC id and password is the first step towards your booking process. Create IRCTC login ID and password by following the below steps:</h4>
+        <ul >
+            <li >Open the ixigo trains app.</li>
+            <li>Tap on the profile icon at the bottom right of the page.</li>
+            <li>Now, tap on 'Link your IRCTC Account.'</li>
+            <li>You will see 'IRCTC username.' Tap on it.</li>
+            <li>A pop-up will appear. Tap on 'Register' located at the bottom right.</li>
+            <li>Now, fill up the required details and proceed to get an OTP.</li>
+            <li>Please enter the OTP and verify your email ID and mobile number.</li>
+            <li>Your IRCTC account will be successfully created</li>
+        </ul>
+
+            <h2 style=" padding: 20px; padding-left:40px;">Recover Your IRCTC Login ID</h2>
+            <h4 style=" padding: 0px; padding-left:40px;">You can easily recover your IRCTC login ID by following the below steps:</h4>
+        <ul>
+            <li>Open the ixigo trains app.</li>
+            <li>Tap on the profile icon at the bottom right of the page.</li>
+            <li>Now, tap on 'Link your IRCTC Account.'</li>
+            <li>Then, tap on 'Forgot your IRCTC User ID'.</li>
+            <li>Enter your IRCTC registered Email ID or mobile number and proceed.</li>
+        </ul>
+
+           <h2  style=" padding: 20px; padding-left:40px;"> Register as a New User on IRCTC</h2>
+            <h4 style=" padding: 0px; padding-left:40px;">Here are the steps to register as a new user on IRCTC:</h4>
+        <ul>
+            <li>Open the ixigo trains app.</li>
+            <li>Tap on the profile icon at the bottom right of the page.</li>
+                <li>Now, tap on 'Link your IRCTC Account.'</li>
+                    <li>Tap on 'Register on IRCTC'.</li>
+                        <li>Enter your details and proceed.</li>
+                            <li>Check IRCTC cancellation charges and refund rules here.</li>
+        </ul>
+            </div>
+        </section>
+        
+
+       <section class="city"  >
+                <h2 class="heading">Top Train Routes</h2>
+                <div class="box-cont">
+                    <div class="box">
+                        <img src="https://images.ixigo.com/image/upload/home/d924fcc85d0901057de8bc07a01321c9-ycbdq.png" alt="">
+                        <h3>Bengaluru Trains</h3>
+                        <p>From: Mumbai, Chennai, Delhi, Hyderabad</p>
+                        <a href="#" class="buttons">See More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="https://images.ixigo.com/image/upload/flightshome/79ee38cdbe961dccc3474b0bb92a3e06-nehrw.png" alt="">
+                        <h3>Mumbai Trains</h3>
+                        <p>From:Bengaluru , Chennai, Delhi, Hyderabad</p>
+                        <a href="#" class="buttons">See More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="https://images.ixigo.com/image/upload/flightshome/233a5d159be13a22fe3c08f5d2843886-znstx.png" alt="">
+                        <h3>Hyderabad Trains</h3>
+                        <p>From: Mumbai, Chennai, Pune, Delhi</p>
+                        <a href="#" class="buttons">See More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="https://images.ixigo.com/image/upload/flightshome/4c3658a4867b64f0cd3806ba996b65b9-hgqbk.png" alt="">
+                        <h3>Delhi Trains</h3>
+                        <p>From: Mumbai, Chennai, Pune, Bengaluru</p>
+                        <a href="#" class="buttons">See More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="https://images.ixigo.com/image/upload/flightshome/d68be4fa4a16e49ad3c604ff56a6e381-aavhe.png" alt="">
+                        <h3>Chennai Trains</h3>
+                        <p>From: Mumbai, Bengaluru,Madurai, Coimbatore</p>
+                        <a href="#" class="buttons">See More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="https://images.ixigo.com/image/upload/flightshome/2aa9b6f5152b47e8fe6f3c6869005b64-kwkop.png" alt="">
+                        <h3>kolkata Trains</h3>
+                        <p>From: Mumbai, Guwahati, Bengaluru, Delhi</p>
+                        <a href="#" class="buttons">See More</a>
+                    </div>
+
+                </div>
+
+                 
+       </section>
+     <section></section>  
+    <div class="one">
+       <div class="containers1">
+
+        <div class="slide">
+   
+    
+              <div class="item" style="background-image: url(image/img1.png);  border-radius: 10px;">
+                  <div class="contents2">
+                     <div class="name">KARNATAKA EXPRESS</div> 
+                       
+                  <button style="border-radius: 5px;"onMouseOver="this.style.background='orangered'" 
+                  onMouseOut="this.style.background='white'"> <a href="#" style="text-decoration: none ">see more</a></button>
+   
+   </div>
+       </div>
+       <div class="item" style="background-image: url(image/img2.png);  border-radius: 10px; ">
+           <div class="contents2">
+              <div class="name">HAMPI EXPRESS </div> 
+              
+           <button style="border-radius: 5px;"onMouseOver="this.style.background='orangered'" 
+           onMouseOut="this.style.background='white'"><a href="#" style="text-decoration: none;">see more</a></button>
+   
+   </div>
+   </div>
+   <div class="item" style="background-image: url(image/img3.png);  border-radius: 10px;">
+       <div class="contents2">
+          <div class="name"  style="margin-top: -200px;">VANDHEBHARATH EXPRESS</div> 
+           
+       <button style="border-radius: 5px;"onMouseOver="this.style.background='orangered'" 
+       onMouseOut="this.style.background='white'"><a href="#" style="text-decoration: none;">see more</a></button>
+   
+   </div>
+   </div>
+   <div class="item" style="background-image: url(image/img4.png);  border-radius: 10px;">
+       <div class="contents2">
+          <div class="name"  style="margin-top:-60px;">VASCO DA GAMA EXPRESS</div> 
+    
+       <button style="border-radius: 5px;"onMouseOver="this.style.background='orangered'" 
+       onMouseOut="this.style.background='white'"><a href="#" style="text-decoration: none;">see more</a></button>
+   
+   </div>
+   </div>
+   <div class="item" style="background-image: url(image/img5.png);  border-radius: 10px;">
+       <div class="contents2">
+          <div class="name">WODEYAR EXPRESS</div> 
+           
+       <button style="border-radius: 5px;"onMouseOver="this.style.background='orangered'" 
+       onMouseOut="this.style.background='white'"><a href="#" style="text-decoration: none;">see more</a></button>
+   
+   </div>
+   </div>
+   <div class="item" style="background-image: url(image/img6.png);  border-radius: 10px;">
+       <div class="contents2">
+          <div class="name">RAM-SETHU EXPRESS</div> 
+           
+       <button style="border-radius: 5px;"onMouseOver="this.style.background='orangered'" 
+       onMouseOut="this.style.background='white'"><a href="#" style="text-decoration: none;">see mores</a></button>
+   
+   </div>
+   </div>
+   
+   </div>
+   
+   
+   <div class="button">
+       <button class="prev"><i class="fa-sharp fa-thin fa-circle-arrow-left"></i></button>
+       <button class="next"><i class="fa-sharp fa-thin fa-circle-arrow-right"></i></button>
+   </div>
+   </div>  
+</div>
+    <script src="slide.js"></script>
+
+       <div class="two">
+        <footer class="footer">
+            <div class="row">
+                <div class="col">
+                    <h3>Popular Train Routs <div class="underline"><span></span></div></h3>
+                    <p><a href="">Bangalore To Mysore Trains</a></p>
+                    <p><a href="">Bangalore To Chennai Trains</a></p>
+                    <p><a href="">Delhi To Jaipur Trains</a></p>
+                    <p><a href="">Bangalore To Delhi Trains</a></p>
+                    <p><a href="">Mumbai To Surat Trains</a></p>
+                </div>
+                <div class="col">
+                    <h3>Support <div class="underline"><span></span></div></h3>
+                    <p><a href="">Contact</a></p>
+                    <p><a href="">Enquiries</a></p>
+                    <p><a href="">Legal Notice</a></p>
+                    <p><a href="">Privacy Policy</a></p>
+                    <p><a href="">General Terms and Conditions</a></p>
+                </div>
+                <div class="col">
+                    <h3>Company <div class="underline"><span></span></div></h3>
+                    <p><a href="">About Us</a></p>
+                    <p><a href="">Explorer</a></p>
+                    <p><a href="">Careers</a> </p>
+                    <p><a href="">Features</a></p>
+                    <p><a href="">Press</a></p>
+                    </div>
+                    <div class="col">
+                        <h3 style="text-transform:capitalize;">Register to PK</h3>
+                        <form action="">
+                            <i class="bi bi-envelope" style="margin-right: 20px; font-size: 18px;"></i>
+                            <input type="email" placeholder="Enter Your Email" required>
+                            <button type="submitt"><i class="bi bi-arrow-right-short"></i></button>
+                        </form>
+                        <div class="icons" style="display:flex;width: 50px; height: 50px; border-radius: 40%; text-align: center;margin-right: 15px; font-size: 20px; color: white; cursor: pointer;">
+                            <i class="bi bi-facebook" style="padding: 15px; "></i>
+                            <i class="bi bi-twitter-x" style="padding: 15px;"></i>
+                            <i class="bi bi-instagram" style="padding: 15px;"></i>
+                            <i class="bi bi-whatsapp" style="padding: 15px;"></i>
+                            <i class="bi bi-youtube" style="padding: 15px;"></i>
+                        </div>
+                    </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright &copy;  2024  www.pk.co.in. All Rights Reserved</p>
+        </footer>
+    </div>
+     
+    <script src="time.js"></script>
+
+
+      
+        
+
+   
+</body>
+</html>
